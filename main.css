@@ -1,0 +1,146 @@
+body {
+  margin: -1px;
+  color: dimgrey;
+  font-size: 22px;
+  text-align: center;
+}
+
+body a {
+	color: inherit;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+#hero {
+	background-color: black;
+	margin: -1px;
+	padding: 6em 1em 2em;
+	font-family: sans-serif;
+}
+
+h1 {
+	color: white;
+	font-size: 10vw;
+	line-height: .8em;
+	text-transform: uppercase;
+}
+
+.btn-white {
+	text-align: center;
+	font-family: sans-serif;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border: 4px solid white;
+	margin: 1em auto 0 auto;
+	font-size: 36px;
+	padding: 20px 30px;
+	text-transform: uppercase;
+}
+
+.learn-more {
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	font-size: .5em;
+	padding: 3em;
+	font-weight: 100;
+}
+
+h1 a.hover {
+	text-decoration: underline;
+}
+
+h1 em {
+	font-weight: 100;
+}
+
+h2 {
+	color: black;
+	padding: 1em 20% .5em;
+	font-size: 2em;
+}
+
+p {
+	margin: 1em 10%;
+	line-height: 1.4em;
+	text-align: left;
+}
+
+p.first:first-letter {
+	font-weight: bold;
+	font-size: 5em;
+	color: black;
+}
+
+a.btn {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 800;
+	color: black;
+	border: 8px solid black;
+	font-size: 36px;
+	margin-top: 1em;
+	padding: 20px 30px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+
+}
+
+/* 
+sharing buttons
+*/
+
+.share-buttons {
+  width: 8%;
+  position: fixed;
+  opacity: 0.7;
+  bottom: 50%;
+  margin-left: -40px;
+  padding-left: none;
+}
+
+.share-buttons ul {
+    margin-left: -10px;
+    padding-left: 0px;
+}
+
+.share-buttons li {
+  background: black;
+  margin-bottom: 2px;
+  margin-left: none;
+  padding-left: none;
+  list-style: none;
+}
+
+.share-buttons svg {
+  fill: white;
+}
+
+/*
+Swan
+*/
+
+.swan {
+  margin: 0 auto;
+  width: 50vw;
+  display: block;
+}
+
+#white {
+	fill: white;
+	width: 19vw;
+}
+
+/*
+footer
+*/
+
+footer {
+	font-size: .9em;
+	padding: 5em 3em 1em;
+	font-style: italic;
+}
+
